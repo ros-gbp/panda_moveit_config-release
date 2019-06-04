@@ -1,0 +1,29 @@
+ros-melodic-panda-moveit-config (0.7.2-1stretch) stretch; urgency=high
+
+  * removing unused attempts param (#26 <https://github.com/ros-planning/panda_moveit_config/issues/26>)
+  * virtual joint quaternion->rpy
+  * fixing the virtual joint issue by adding the broadcaster (#23 <https://github.com/ros-planning/panda_moveit_config/issues/23>)
+  * changing the end effector parent group (#20 <https://github.com/ros-planning/panda_moveit_config/issues/20>)
+    * changing the end effector parent group
+    * changing virtual joint to floating for use with moveit_visual_tools
+  * Fix incorrect SRDF path (#19 <https://github.com/ros-planning/panda_moveit_config/issues/19>)
+  * Contributors: Dave Coleman, Mike Lautman
+
+ -- Mike Lautman <mike@picknik.ai>  Sun, 21 Apr 2019 22:00:00 -0000
+
+ros-melodic-panda-moveit-config (0.7.1-1stretch) stretch; urgency=high
+
+  * CHOMP: remove "Hybrid" collision detector (#16 <https://github.com/ros-planning/panda_moveit_config/pull/16>)
+  * Contributors: Robert Haschke
+
+ -- Mike Lautman <mike@picknik.ai>  Sun, 09 Dec 2018 23:00:00 -0000
+
+ros-melodic-panda-moveit-config (0.7.0-1stretch) stretch; urgency=high
+
+  * Initial release of panda_moveit_config into Melodic, including OMPL, CHOMP and STOMP configs
+    We moved/merged this repo from https://github.com/frankaemika/franka_ros.
+  * Contributors: Dave Coleman, Florian Walch, Mike Lautman, Raghavender Sahdev
+
+ -- Mike Lautman <mike@picknik.ai>  Thu, 08 Nov 2018 23:00:00 -0000
+
+
