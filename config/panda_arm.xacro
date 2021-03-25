@@ -28,6 +28,15 @@
       <joint name="panda_joint6" value="0" />
       <joint name="panda_joint7" value="0.785" />
     </group_state>
+    <group_state name="transport" group="panda_arm">
+      <joint name="panda_joint1" value="0" />
+      <joint name="panda_joint2" value="-0.5599" />
+      <joint name="panda_joint3" value="0" />
+      <joint name="panda_joint4" value="-2.97" />
+      <joint name="panda_joint5" value="0" />
+      <joint name="panda_joint6" value="0" />
+      <joint name="panda_joint7" value="0.785" />
+    </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="virtual_joint" type="floating" parent_frame="world" child_link="panda_link0" />
@@ -37,19 +46,19 @@
     <disable_collisions link1="panda_link0" link2="panda_link3" reason="Never" />
     <disable_collisions link1="panda_link0" link2="panda_link4" reason="Never" />
     <disable_collisions link1="panda_link1" link2="panda_link2" reason="Adjacent" />
-    <disable_collisions link1="panda_link1" link2="panda_link3" reason="Never" />
+    <disable_collisions link1="panda_link1" link2="panda_link3" reason="Default" />
     <disable_collisions link1="panda_link1" link2="panda_link4" reason="Never" />
     <disable_collisions link1="panda_link2" link2="panda_link3" reason="Adjacent" />
     <disable_collisions link1="panda_link2" link2="panda_link4" reason="Never" />
-    <disable_collisions link1="panda_link2" link2="panda_link6" reason="Never" />
     <disable_collisions link1="panda_link3" link2="panda_link4" reason="Adjacent" />
-    <disable_collisions link1="panda_link3" link2="panda_link5" reason="Never" />
     <disable_collisions link1="panda_link3" link2="panda_link6" reason="Never" />
-    <disable_collisions link1="panda_link3" link2="panda_link7" reason="Never" />
     <disable_collisions link1="panda_link4" link2="panda_link5" reason="Adjacent" />
     <disable_collisions link1="panda_link4" link2="panda_link6" reason="Never" />
     <disable_collisions link1="panda_link4" link2="panda_link7" reason="Never" />
+    <disable_collisions link1="panda_link4" link2="panda_link8" reason="Never" />
     <disable_collisions link1="panda_link5" link2="panda_link6" reason="Adjacent" />
     <disable_collisions link1="panda_link6" link2="panda_link7" reason="Adjacent" />
+    <disable_collisions link1="panda_link6" link2="panda_link8" reason="Default" />
+    <disable_collisions link1="panda_link7" link2="panda_link8" reason="Adjacent" />
   </xacro:macro>
 </robot>
