@@ -1,0 +1,12 @@
+Source: ros-noetic-panda-moveit-config
+Section: misc
+Priority: optional
+Maintainer: Mike Lautman <mike@picknik.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-noetic-panda-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-franka-description, ros-noetic-joint-state-publisher, ros-noetic-joint-state-publisher-gui, ros-noetic-moveit-fake-controller-manager, ros-noetic-moveit-kinematics, ros-noetic-moveit-planners-ompl, ros-noetic-moveit-ros-move-group, ros-noetic-moveit-ros-visualization, ros-noetic-robot-state-publisher, ros-noetic-topic-tools, ros-noetic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the panda with the MoveIt! Motion Planning Framework
