@@ -1,3 +1,26 @@
+## panda_moveit_config (melodic) - 0.7.6-1
+
+The packages in the `panda_moveit_config` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic panda_moveit_config` on `Thu, 18 Aug 2022 15:20:54 -0000`
+
+The `panda_moveit_config` package was released.
+
+Version of package(s) in repository `panda_moveit_config`:
+
+- upstream repository: https://github.com/ros-planning/panda_moveit_config.git
+- release repository: https://github.com/ros-gbp/panda_moveit_config-release.git
+- rosdistro version: `0.7.4-1`
+- old version: `0.7.4-1`
+- new version: `0.7.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## panda_moveit_config (noetic) - 0.7.5-1
 
 The packages in the `panda_moveit_config` repository were released into the `noetic` distro by running `/home/tyler/.local/bin/bloom-release --rosdistro noetic panda_moveit_config` on `Thu, 25 Mar 2021 21:16:19 -0000`
