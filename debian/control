@@ -1,0 +1,12 @@
+Source: ros-melodic-panda-moveit-config
+Section: misc
+Priority: optional
+Maintainer: MoveIt maintainer team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-panda-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-franka-description, ros-melodic-joint-state-publisher, ros-melodic-joint-state-publisher-gui, ros-melodic-moveit-fake-controller-manager, ros-melodic-moveit-kinematics, ros-melodic-moveit-planners-ompl, ros-melodic-moveit-ros-move-group, ros-melodic-moveit-ros-visualization, ros-melodic-moveit-setup-assistant, ros-melodic-moveit-simple-controller-manager, ros-melodic-robot-state-publisher, ros-melodic-rviz, ros-melodic-tf2-ros, ros-melodic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the panda with the MoveIt Motion Planning Framework
