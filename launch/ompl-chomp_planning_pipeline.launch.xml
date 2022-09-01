@@ -10,8 +10,10 @@
        chomp/OptimizerAdapter"
        />
   </include>
+
   <!-- load chomp config -->
   <rosparam command="load" file="$(find panda_moveit_config)/config/chomp_planning.yaml"/>
+
   <!-- override trajectory_initialization_method -->
   <param name="trajectory_initialization_method" value="fillTrajectory"/>
 </launch>
